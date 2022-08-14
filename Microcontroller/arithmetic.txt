@@ -1,0 +1,22 @@
+org 0000h
+mov a,#02h
+add a,#03h
+mov r0,a
+clr a
+clr c
+mov a,#05h
+subb a,#02h
+mov r1,a
+mov a,#03h
+mov b,#04h
+mul ab
+mov r2,a
+mov r3,b
+clr a
+mov a,#95h
+mov b,#10h
+div ab
+mov r4,a
+mov r5,b
+end
+

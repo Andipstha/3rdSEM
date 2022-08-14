@@ -1,0 +1,11 @@
+2.compute f1=f(a)&f2=f(b)
+3.if f1*f2>0,a&b do not have any root and go to step 7; otherwise continue.
+4.Compute *x=(a+b)/2 and compute f0=f(*x)
+5. If f1 * f0 <0 then
+  set b=*x
+  else
+  set a=*x
+  set f1=f0
+6. If absolute value of(b-a)/b is less than error E, then
+  root=(a+b)/2
+7.Stop
